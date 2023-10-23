@@ -1,1 +1,21 @@
+citHeader("To cite gRapHD in publications use:")
+
+citEntry(entry = "Article",
+  title        = "High-Dimensional Graphical Model Search with the {gRapHD} {R} Package",
+  author       = personList(as.person("Gabriel C. G. Abreu"),
+                   as.person("David Edwards"),
+                   as.person("Rodrigo Labouriau")),
+  journal      = "Journal of Statistical Software",
+  year         = "2010",
+  volume       = "37",
+  number       = "1",
+  pages        = "1--18",
+  url          = "http://www.jstatsoft.org/v37/i01/",
+
+  textVersion  =
+  paste("Gabriel C. G. Abreu, David Edwards, Rodrigo Labouriau (2010).",
+        "High-Dimensional Graphical Model Search with the gRapHD R Package.",
+        "Journal of Statistical Software, 37(1), 1-18.",
+        "URL http://www.jstatsoft.org/v37/i01/.")
+)
 
